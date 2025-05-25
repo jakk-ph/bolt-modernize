@@ -1,0 +1,400 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --actionalert: rgba(248, 177, 93, 1);
+  --big-font-family: "Plus Jakarta Sans", Helvetica;
+  --big-font-size: 16px;
+  --big-font-style: normal;
+  --big-font-weight: 400;
+  --big-letter-spacing: -0.32px;
+  --big-line-height: 140%;
+  --big-regular-font-family: "Plus Jakarta Sans", Helvetica;
+  --big-regular-font-size: 16px;
+  --big-regular-font-style: normal;
+  --big-regular-font-weight: 600;
+  --big-regular-letter-spacing: 0px;
+  --big-regular-line-height: 30px;
+  --blackblack: rgba(29, 53, 79, 1);
+  --blackblack-100: rgba(17, 28, 45, 1);
+  --blackgray: rgba(93, 114, 135, 1);
+  --blackwhite: rgba(255, 255, 255, 1);
+  --blue-themeblack-colorsgrey: rgba(103, 117, 124, 1);
+  --blue-themeblack-colorsgrey-2: rgba(119, 126, 137, 1);
+  --border-colors: rgba(234, 239, 244, 1);
+  --button-normal-font-family: "DM Sans", Helvetica;
+  --button-normal-font-size: 14px;
+  --button-normal-font-style: normal;
+  --button-normal-font-weight: 500;
+  --button-normal-letter-spacing: 0px;
+  --button-normal-line-height: normal;
+  --button-shadow: 0px 4px 12px 0px rgba(0, 133, 219, 0.3);
+  --button-text-regular-font-family: "Plus Jakarta Sans", Helvetica;
+  --button-text-regular-font-size: 15px;
+  --button-text-regular-font-style: normal;
+  --button-text-regular-font-weight: 500;
+  --button-text-regular-letter-spacing: -0.15px;
+  --button-text-regular-line-height: 140%;
+  --chart-text-font-family: "Plus Jakarta Sans", Helvetica;
+  --chart-text-font-size: 11px;
+  --chart-text-font-style: normal;
+  --chart-text-font-weight: 400;
+  --chart-text-letter-spacing: 0px;
+  --chart-text-line-height: normal;
+  --color-options01-priamary-color: rgba(0, 116, 186, 1);
+  --color-options01-primary-light-color: rgba(239, 249, 255, 1);
+  --color-options01-secondary-color: rgba(71, 215, 188, 1);
+  --color-options01-secondary-light-color: rgba(237, 251, 247, 1);
+  --color-options02-primary-color: rgba(118, 62, 189, 1);
+  --color-options02-primary-light-color: rgba(242, 236, 249, 1);
+  --color-options02-secondary-color: rgba(149, 207, 213, 1);
+  --color-options02-secondary-light-color: rgba(237, 249, 250, 1);
+  --color-options03-primary-color: rgba(10, 126, 164, 1);
+  --color-options03-primary-light-color: rgba(237, 246, 249, 1);
+  --color-options03-secondary-color: rgba(204, 218, 78, 1);
+  --color-options03-secondary-light-color: rgba(250, 251, 239, 1);
+  --color-options04-primary-color: rgba(1, 192, 200, 1);
+  --color-options04-primary-light-color: rgba(235, 249, 250, 1);
+  --color-options04-secondary-color: rgba(251, 150, 120, 1);
+  --color-options04-secondary-light-color: rgba(255, 245, 242, 1);
+  --colors-for-light-themeaction-colorspurple: rgba(135, 99, 218, 1);
+  --colors-for-light-themeaction-colorspurple-light: rgba(135, 99, 218, 0.1);
+  --colors-for-light-themeaction-colorssuccess: rgba(9, 201, 127, 1);
+  --colors-for-light-themeaction-colorssucess-light: rgba(9, 201, 127, 0.1);
+  --colors-for-light-themeaction-colorswarning: rgba(248, 177, 93, 1);
+  --colors-for-light-themeaction-colorswarning-light: rgba(248, 177, 93, 0.1);
+  --colors-for-light-themeblack-shadesblack-10: rgba(17, 28, 45, 0.1);
+  --colors-for-light-themeblack-shadesblack-40: rgba(17, 28, 45, 0.4);
+  --colors-for-light-themeblack-shadesblack-60: rgba(17, 28, 45, 0.6);
+  --colors-for-light-themeprimary-colorsblack: rgba(17, 28, 45, 1);
+  --colors-for-light-themeprimary-colorsprimary-blue: rgba(0, 133, 219, 1);
+  --colors-for-light-themeprimary-colorsprimary-light-blue-color: rgba(
+    229,
+    243,
+    251,
+    1
+  );
+  --colors-for-light-themeprimary-colorswhite: rgba(255, 255, 255, 1);
+  --colors-for-light-themesecondary-colorssecondary-light-blue: rgba(
+    90,
+    200,
+    250,
+    1
+  );
+  --colors-for-light-themesecondary-colorssecondary-light-orange: rgba(
+    255,
+    237,
+    233,
+    1
+  );
+  --colors-for-light-themesecondary-colorssecondary-orange: rgba(
+    251,
+    151,
+    125,
+    1
+  );
+  --custom-shadow-1: 0px 6px 12px 0px rgba(127, 145, 156, 0.12);
+  --custom-shadow-2: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  --custom-shadow-3: 0px 3px 0px 0px rgba(235, 241, 246, 0.25);
+  --custom-shadow-4: 0px 8px 32px -16px rgba(42, 53, 71, 0.2);
+  --custom-shadow-5: 0px 20px 60px -20px rgba(0, 0, 0, 0.08);
+  --custom-shadow-6: 0px 23px 56px -25px rgba(0, 0, 0, 0.08);
+  --custom-text-2-semibold-font-family: "Plus Jakarta Sans", Helvetica;
+  --custom-text-2-semibold-font-size: 17px;
+  --custom-text-2-semibold-font-style: normal;
+  --custom-text-2-semibold-font-weight: 600;
+  --custom-text-2-semibold-letter-spacing: -0.17px;
+  --custom-text-2-semibold-line-height: 100%;
+  --custom-text-font-family: "Plus Jakarta Sans", Helvetica;
+  --custom-text-font-size: 13px;
+  --custom-text-font-style: normal;
+  --custom-text-font-weight: 500;
+  --custom-text-letter-spacing: 0px;
+  --custom-text-line-height: 24px;
+  --dark-themebackground: rgba(32, 41, 54, 1);
+  --dark-themeborder: rgba(51, 63, 85, 1);
+  --dark-themedark-error-color: rgba(64, 46, 50, 1);
+  --dark-themedark-info-color: rgba(30, 49, 70, 1);
+  --dark-themedark-primary-color: rgba(37, 43, 72, 1);
+  --dark-themedark-secondary-color: rgba(23, 51, 68, 1);
+  --dark-themedark-success-color: rgba(27, 60, 72, 1);
+  --dark-themedark-warning-color: rgba(62, 57, 54, 1);
+  --font-color-black: rgba(29, 29, 31, 1);
+  --font-color-white: rgba(255, 255, 255, 1);
+  --grey-background: rgba(241, 245, 249, 1);
+  --heading-h1-font-family: "Plus Jakarta Sans", Helvetica;
+  --heading-h1-font-size: 36px;
+  --heading-h1-font-style: normal;
+  --heading-h1-font-weight: 600;
+  --heading-h1-letter-spacing: -0.72px;
+  --heading-h1-line-height: 120.00000762939453%;
+  --heading-h2-font-family: "Plus Jakarta Sans", Helvetica;
+  --heading-h2-font-size: 30px;
+  --heading-h2-font-style: normal;
+  --heading-h2-font-weight: 600;
+  --heading-h2-letter-spacing: -0.3px;
+  --heading-h2-line-height: 120.00000762939453%;
+  --heading-h3-font-family: "Plus Jakarta Sans", Helvetica;
+  --heading-h3-font-size: 24px;
+  --heading-h3-font-style: normal;
+  --heading-h3-font-weight: 600;
+  --heading-h3-letter-spacing: 0px;
+  --heading-h3-line-height: 120.00000762939453%;
+  --heading-h4-font-family: "Plus Jakarta Sans", Helvetica;
+  --heading-h4-font-size: 21px;
+  --heading-h4-font-style: normal;
+  --heading-h4-font-weight: 600;
+  --heading-h4-letter-spacing: 0px;
+  --heading-h4-line-height: 130%;
+  --heading-h5-font-family: "Plus Jakarta Sans", Helvetica;
+  --heading-h5-font-size: 18px;
+  --heading-h5-font-style: normal;
+  --heading-h5-font-weight: 600;
+  --heading-h5-letter-spacing: 0px;
+  --heading-h5-line-height: 120.00000762939453%;
+  --heading-h6-font-family: "Plus Jakarta Sans", Helvetica;
+  --heading-h6-font-size: 16px;
+  --heading-h6-font-style: normal;
+  --heading-h6-font-weight: 600;
+  --heading-h6-letter-spacing: 0px;
+  --heading-h6-line-height: 120.00000762939453%;
+  --heading-style-h5-font-family: "Plus Jakarta Sans", Helvetica;
+  --heading-style-h5-font-size: 15px;
+  --heading-style-h5-font-style: normal;
+  --heading-style-h5-font-weight: 500;
+  --heading-style-h5-letter-spacing: -0.3px;
+  --heading-style-h5-line-height: 140%;
+  --heading-style-h6-font-family: "Plus Jakarta Sans", Helvetica;
+  --heading-style-h6-font-size: 14px;
+  --heading-style-h6-font-style: normal;
+  --heading-style-h6-font-weight: 500;
+  --heading-style-h6-letter-spacing: -0.2800000000000001px;
+  --heading-style-h6-line-height: 140%;
+  --large-regular-font-family: "Plus Jakarta Sans", Helvetica;
+  --large-regular-font-size: 18px;
+  --large-regular-font-style: normal;
+  --large-regular-font-weight: 400;
+  --large-regular-letter-spacing: 0px;
+  --large-regular-line-height: normal;
+  --large-semibold-font-family: "Plus Jakarta Sans", Helvetica;
+  --large-semibold-font-size: 18px;
+  --large-semibold-font-style: normal;
+  --large-semibold-font-weight: 700;
+  --large-semibold-letter-spacing: 0px;
+  --large-semibold-line-height: 28px;
+  --light-color-versionaction-colorwarning-color: rgba(248, 177, 93, 1);
+  --light-color-versiongrey-tonegrey-tone-02: rgba(108, 121, 132, 1);
+  --light-color-versiongrey-tonegrey-tone-06: rgba(255, 255, 255, 1);
+  --light-themeaction-lightlight-error: rgba(251, 242, 239, 1);
+  --light-themeaction-lightlight-info: rgba(235, 243, 254, 1);
+  --light-themeaction-lightlight-success: rgba(230, 255, 250, 1);
+  --light-themeaction-lightlight-warning: rgba(254, 245, 229, 1);
+  --light-themeactionerror: rgba(250, 137, 107, 1);
+  --light-themeactioninfo: rgba(83, 155, 255, 1);
+  --light-themeactionsuccess: rgba(19, 222, 185, 1);
+  --light-themeactionwarning: rgba(255, 174, 31, 1);
+  --light-themegraydark-blue-grey: rgba(42, 53, 71, 1);
+  --light-themegraylight-grey: rgba(223, 229, 239, 1);
+  --light-themegraylighter-grey: rgba(234, 239, 244, 1);
+  --light-themegraylightest-grey: rgba(242, 246, 250, 1);
+  --light-themegraymd-new-grey: rgba(90, 106, 133, 1);
+  --light-themegraymedium-blue-grey: rgba(124, 143, 172, 1);
+  --light-themegraypure-white: rgba(255, 255, 255, 1);
+  --light-themeprimarylight-primary: rgba(236, 242, 255, 1);
+  --light-themeprimaryprimary: rgba(93, 135, 255, 1);
+  --light-themeprimaryprimary-v2: rgba(69, 112, 234, 1);
+  --light-themesecondarylight-secondary: rgba(232, 247, 255, 1);
+  --light-themesecondarysecondary-color: rgba(73, 190, 255, 1);
+  --light-themesecondarysecondary-v2: rgba(52, 161, 222, 1);
+  --LP-h1-font-family: "Plus Jakarta Sans", Helvetica;
+  --LP-h1-font-size: 56px;
+  --LP-h1-font-style: normal;
+  --LP-h1-font-weight: 700;
+  --LP-h1-letter-spacing: -1.1200000000000003px;
+  --LP-h1-line-height: normal;
+  --LP-h2-font-family: "Plus Jakarta Sans", Helvetica;
+  --LP-h2-font-size: 40px;
+  --LP-h2-font-style: normal;
+  --LP-h2-font-weight: 700;
+  --LP-h2-letter-spacing: -0.8px;
+  --LP-h2-line-height: 52.79999923706055px;
+  --LP-h3-font-family: "Plus Jakarta Sans", Helvetica;
+  --LP-h3-font-size: 48px;
+  --LP-h3-font-style: normal;
+  --LP-h3-font-weight: 700;
+  --LP-h3-letter-spacing: -0.96px;
+  --LP-h3-line-height: 120.00000762939453%;
+  --LP-h4-font-family: "Plus Jakarta Sans", Helvetica;
+  --LP-h4-font-size: 32px;
+  --LP-h4-font-style: normal;
+  --LP-h4-font-weight: 700;
+  --LP-h4-letter-spacing: -0.64px;
+  --LP-h4-line-height: 130%;
+  --LP-icon-shadow: 0px 12px 30px -2px rgba(58, 75, 122, 0.14);
+  --medium-regular-font-family: "Plus Jakarta Sans", Helvetica;
+  --medium-regular-font-size: 15px;
+  --medium-regular-font-style: normal;
+  --medium-regular-font-weight: 400;
+  --medium-regular-letter-spacing: 0px;
+  --medium-regular-line-height: 140%;
+  --medium-semibold-font-family: "Plus Jakarta Sans", Helvetica;
+  --medium-semibold-font-size: 15px;
+  --medium-semibold-font-style: normal;
+  --medium-semibold-font-weight: 500;
+  --medium-semibold-letter-spacing: -0.3px;
+  --medium-semibold-line-height: 100%;
+  --neutralblack: rgba(49, 14, 58, 1);
+  --neutralgray: rgba(131, 110, 137, 1);
+  --neutralwhite: rgba(255, 255, 255, 1);
+  --normal-font-family: "Plus Jakarta Sans", Helvetica;
+  --normal-font-size: 14px;
+  --normal-font-style: normal;
+  --normal-font-weight: 400;
+  --normal-letter-spacing: -0.2800000000000001px;
+  --normal-line-height: 140%;
+  --normal-semibold-font-family: "Plus Jakarta Sans", Helvetica;
+  --normal-semibold-font-size: 14px;
+  --normal-semibold-font-style: normal;
+  --normal-semibold-font-weight: 600;
+  --normal-semibold-letter-spacing: -0.14000000000000004px;
+  --normal-semibold-line-height: 140%;
+  --paragraph-extra-small-font-family: "Plus Jakarta Sans", Helvetica;
+  --paragraph-extra-small-font-size: 12px;
+  --paragraph-extra-small-font-style: normal;
+  --paragraph-extra-small-font-weight: 400;
+  --paragraph-extra-small-letter-spacing: 0px;
+  --paragraph-extra-small-line-height: 140%;
+  --paragraph-large-font-family: "Plus Jakarta Sans", Helvetica;
+  --paragraph-large-font-size: 17px;
+  --paragraph-large-font-style: normal;
+  --paragraph-large-font-weight: 400;
+  --paragraph-large-letter-spacing: 0px;
+  --paragraph-large-line-height: 140%;
+  --paragraph-normal-font-family: "Plus Jakarta Sans", Helvetica;
+  --paragraph-normal-font-size: 12px;
+  --paragraph-normal-font-style: normal;
+  --paragraph-normal-font-weight: 500;
+  --paragraph-normal-letter-spacing: -0.24px;
+  --paragraph-normal-line-height: 140%;
+  --paragraph-regular-font-family: "Plus Jakarta Sans", Helvetica;
+  --paragraph-regular-font-size: 15px;
+  --paragraph-regular-font-style: normal;
+  --paragraph-regular-font-weight: 400;
+  --paragraph-regular-letter-spacing: 0px;
+  --paragraph-regular-line-height: 140%;
+  --paragraph-small-font-family: "Plus Jakarta Sans", Helvetica;
+  --paragraph-small-font-size: 14px;
+  --paragraph-small-font-style: normal;
+  --paragraph-small-font-weight: 400;
+  --paragraph-small-letter-spacing: 0px;
+  --paragraph-small-line-height: 140%;
+  --primaryblue: rgba(0, 133, 219, 1);
+  --secondarypurple: rgba(118, 62, 189, 1);
+  --secondaryred: rgba(251, 151, 125, 1);
+  --shadow: 0px 2px 6px 0px rgba(37, 83, 185, 0.1);
+  --shadow-1: 0px 12px 24px -4px rgba(145, 158, 171, 0.12), 0px 0px 2px 0px
+    rgba(145, 158, 171, 0.2);
+  --shadow-medium: 0px 2px 6px 0px rgba(37, 83, 185, 0.1);
+  --small-font-family: "Plus Jakarta Sans", Helvetica;
+  --small-font-size: 12px;
+  --small-font-style: normal;
+  --small-font-weight: 400;
+  --small-letter-spacing: 0px;
+  --small-line-height: 140%;
+  --small-semibold-font-family: "Plus Jakarta Sans", Helvetica;
+  --small-semibold-font-size: 12px;
+  --small-semibold-font-style: normal;
+  --small-semibold-font-weight: 600;
+  --small-semibold-letter-spacing: 0px;
+  --small-semibold-line-height: 140%;
+  --white: rgba(255, 255, 255, 1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
